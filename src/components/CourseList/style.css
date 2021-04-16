@@ -1,0 +1,11 @@
+.course-list {
+    display: grid;
+    list-style-type: none;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fill, 400px);
+    flex-grow: 1;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+}

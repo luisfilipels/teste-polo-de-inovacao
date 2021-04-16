@@ -1,0 +1,20 @@
+.status-list {
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.status-list-item {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.colored-red {
+    background-color: red;
+    color: white;
+}
+
+.colored-green {
+    background-color: green;
+    color: white;
+}

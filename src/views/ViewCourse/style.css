@@ -1,0 +1,38 @@
+.view-course-image {
+    height: 50px;
+    padding-right: 10px;
+}
+
+.view-course-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.view-course-container {
+    margin-top: 20px;
+}
+
+.view-course-section {
+    align-items: center;
+}
+
+.view-course-section-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.view-course-icon {
+    padding-left: 10px;
+}
+
+.view-course-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4vw;
+}
+
+.view-course-ul {
+    padding-top: 0;
+    margin-top: 0;
+}

@@ -1,0 +1,49 @@
+.card {
+    margin: 10px;
+}
+
+.card-col {
+    padding-left: 10px;
+    height: 9vw;
+    min-width: 0;
+}
+
+.card-row {
+    width: 25vw;
+    align-items: center;
+}
+
+.card-image {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+}
+
+.card-image-box {
+    margin-left: 10px;
+    background-color: #363636;
+    width: 100px;
+    height: 7vw;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-title {
+    text-overflow: ellipsis;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw;
+    display: inline-block;
+    overflow: hidden;
+    width: 225px;
+    white-space: normal;
+    margin: 10px 0 0;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    line-height: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}

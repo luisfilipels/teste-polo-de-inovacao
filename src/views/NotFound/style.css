@@ -1,0 +1,16 @@
+.not-found-code {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.not-found-main {
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found-message {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
