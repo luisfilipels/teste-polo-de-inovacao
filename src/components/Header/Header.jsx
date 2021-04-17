@@ -2,6 +2,11 @@ import {Link} from "react-router-dom";
 import logo from '../../logo.svg'
 import './style.css'
 
+/**
+ * This component returns the header used in the site, containing the site's name, and React's logo. Both are links,
+ * and lead to the root portion of the site
+ * @returns {JSX.Element}
+ */
 const Header = () => {
     return (
         <header className="flex flex-row fixed-header shadowed">

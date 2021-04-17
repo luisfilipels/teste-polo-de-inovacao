@@ -2,6 +2,12 @@ import './style.css'
 import CourseList from "../../components/CourseList";
 import StatusList from "../../components/StatusList";
 
+/**
+ * This view shows the list of possible course status (in StatusList), and the list of courses (in CourseList)
+ * @param type
+ * @returns {JSX.Element}
+ * @constructor
+ */
 const ListCourses = ({ type }) => {
 
     const getCourseText = e => {

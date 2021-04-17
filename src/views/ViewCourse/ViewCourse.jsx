@@ -3,6 +3,10 @@ import {useState} from "react";
 import Courses from '../../assets/db/cursos'
 import './style.css'
 
+/**
+ * Shows one specific course, with a specific ID
+ * @returns {JSX.Element}
+ */
 const ViewCourse = () => {
 
     let history = useHistory();

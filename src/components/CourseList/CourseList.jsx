@@ -3,6 +3,12 @@ import './style.css'
 import Courses from '../../assets/db/cursos'
 import {useState} from "react";
 
+/**
+ * Returns a list of courses contained in the db.json file, classified in regards to whether the course is completed or
+ * not.
+ * @param courseType Which kind of course is shown in the list (completed or non-completed courses)
+ * @returns {JSX.Element}
+ */
 const CourseList = ( { courseType } ) => {
 
     const [courses] = useState(Courses);
@@ -19,7 +25,7 @@ const CourseList = ( { courseType } ) => {
                 }).map((course, index) => {
                     return (
                         <li key={index}>
-                            <CourseCard id={course.id} img_icon={course.img_icon} name={course.nome} dateCompleted={course.dt_realizacao} hours={course.carga_horaria}/>
+                            <CourseCard id={course.id} img_icon={course.img_icon} name={course.nome} date_completed={course.dt_realizacao} hours={course.carga_horaria}/>
                         </li>
                     );
                 })

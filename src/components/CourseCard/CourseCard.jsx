@@ -1,7 +1,17 @@
 import './style.css';
 import {Link} from "react-router-dom";
 
-const CourseCard = ({img_icon, name, dateCompleted, hours, id}) => {
+/**
+ * Shows a single card containing the course's logo, name, the date the user completed it, how many hours it takes, and
+ * its ID. When clicked, the user is redirected to the page containing the course's details.
+ * @param img_icon Path to the course's icon
+ * @param name Name of the course
+ * @param date_completed Date in which the user completed the course
+ * @param hours How many hours it takes to complete the course
+ * @param id ID of the course
+ * @returns {JSX.Element}
+ */
+const CourseCard = ({img_icon, name, date_completed, hours, id}) => {
     const images = require.context('../../', true);
 
     return (
@@ -13,7 +23,7 @@ const CourseCard = ({img_icon, name, dateCompleted, hours, id}) => {
                     </div>
                     <div className="card-col flex flex-column">
                         <h2 className="card-title">{name}</h2>
-                        <p className="card-text">{`Realizado em ${dateCompleted}`}</p>
+                        <p className="card-text">{`Realizado em ${date_completed}`}</p>
                         <p className="card-text">{`Carga horária: ${hours} horas`}</p>
                     </div>
                 </div>

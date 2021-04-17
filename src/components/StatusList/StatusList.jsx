@@ -1,6 +1,11 @@
 import {Link} from "react-router-dom";
 import './style.css';
 
+/**
+ * Shows the two types of courses (completed and non-completed)
+ * @returns {JSX.Element}
+ * @constructor
+ */
 const StatusList = () => {
 
     return (

@@ -1,5 +1,9 @@
 import './style.css'
 
+/**
+ * View shown when the user accesses a non-existing page.
+ * @returns {JSX.Element}
+ */
 const NotFound = () => {
     return (
         <main className="not-found-main flex flex-column">
