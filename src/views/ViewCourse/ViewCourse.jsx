@@ -12,13 +12,15 @@ const ViewCourse = () => {
     let history = useHistory();
     const { id } = useParams();
 
+    const ID = parseInt(id);
+
     const [courses] = useState(Courses);
     const images = require.context('../../', true);
 
     let currentCourse = null;
     for (let i = 0; i < courses.length; i++) {
         console.log(courses[i]);
-        if (courses[i].id == id) currentCourse = courses[i];
+        if (courses[i].id === ID) currentCourse = courses[i];
     }
     if (currentCourse == null) {
         history.push('/404');
