@@ -16,8 +16,8 @@ const CourseCard = ({img_icon, name, date_completed, hours, id}) => {
 
     return (
         <Link to={`/curso/${id}`} className="no-decoration">
-            <section className="card container shadowed">
-                <div className="card-row flex flex-row">
+            <section className="card flex container shadowed">
+                <div className="flex flex-row card-row">
                     <div className="card-image-box flex">
                         <img className="card-image" src={images('./' + img_icon).default} alt="teste"/>
                     </div>
