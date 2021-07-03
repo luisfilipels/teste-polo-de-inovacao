@@ -16,7 +16,7 @@ const Header = () => {
                 }/>
             </Link>
             <Link className="header-title" to="/">
-                <h1 >Cursos em React</h1>
+                <h1 >React rodando no Azure!</h1>
             </Link>
         </header>
     );
